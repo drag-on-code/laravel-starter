@@ -10,7 +10,9 @@ import Router from './router';
 import messages from '@intlify/unplugin-vue-i18n/messages';
 import "flyonui/flyonui";
 import { themeChange } from 'theme-change'
+import GlobalIcons from './helpers/tabler-icon';
 themeChange();
+
 window._ = _;
 window.debounce = debounce;
 window.Pusher = Pusher;
@@ -65,6 +67,7 @@ app.use(i18n)
     .use(VueTablerIcons)
     .use(VueSweetalert2, options)
     .use(VueExcelEditor)
+    .use(GlobalIcons)
     .component('chart', VueApexCharts)
     .component('downloadCsv', JsonCSV)
     .component('downloadExcel', JsonExcel)

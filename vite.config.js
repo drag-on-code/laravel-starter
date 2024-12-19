@@ -44,7 +44,6 @@ export default ({ mode }) => {
             Laravel({
                 input: [
                     'resources/scss/app.scss',
-                    'resources/css/app.css',
                     'resources/js/app.js'
                 ],
                 refresh: true,

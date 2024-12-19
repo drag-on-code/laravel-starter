@@ -185,7 +185,7 @@ export default {
         </template>
         <div class="input-group">
             <span v-if="iconLeft" class="input-group-text">
-                <span :class="`icon-[tabler--${iconLeft}]`" />
+                <component v-bind:is="`Icon${helpers.capitalize(iconLeft)}`" />
             </span>
             <input ref="input" class="input grow" :class="{ 'is-invalid': response.errors && response.errors[name] }"
                 :id="name" :type="type" :placeholder="_placeholder" :value="modelValue" :required="required"
@@ -193,10 +193,10 @@ export default {
                 :max="max" @input="$emit('update:modelValue', $event.target.value)" @focus="$event.target.select()"
                 :disabled="!response.hasResponse" />
             <span v-if="iconRight && type !== 'password' && !response.errors" class="input-group-text">
-                <span :class="`icon-[tabler--${iconRight}]`" />
+                <component v-bind:is="`Icon${helpers.capitalize(iconRight)}`" />
             </span>
             <span v-else-if="response.errors && response.errors[name]" class="input-group-text">
-                <span class="icon-[tabler--alert-circle]" />
+                <IconAlertCircle />
             </span>
             <span v-else-if="type === 'password'" class="input-group-text">
                 <button type="button" :data-toggle-password='`{ "target": "#${name}" }`' class="block"
