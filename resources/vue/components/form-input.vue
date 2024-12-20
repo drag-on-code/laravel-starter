@@ -179,7 +179,7 @@ export default {
         <template v-if="_label && !noLabel">
             <label class="label label-text font-bold" for="errorInput">
                 {{ _label }}
-                <span v-if="required && response.hasResponse" class="label-text-alt text-red-500">*Required</span>
+                <span v-if="required && response.hasResponse" class="label-text-alt text-error">*Required</span>
                 <span v-if="!response.hasResponse" class="loading loading-spinner loading-xs" />
             </label>
         </template>
@@ -207,7 +207,6 @@ export default {
                         class="icon-[tabler--eye-off] text-base-content/80 password-active:hidden block size-5 flex-shrink-0"></span>
                 </button>
             </span>
-
         </div>
         <span class="label" v-if="response.errors && response.errors[name]">
             <span class="label-text-alt">

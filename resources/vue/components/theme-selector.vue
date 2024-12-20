@@ -1,6 +1,12 @@
 <script>
 import themes from '#/themes.json';
 export default {
+    props: {
+        noChevron: {
+            type: Boolean,
+            default: false,
+        },
+    },
     methods: {
         getAvailableThemes() {
             return themes.map((theme) => {
@@ -19,8 +25,8 @@ export default {
     <div class="dropdown relative inline-flex [--auto-close:inside] rtl:[--placement:bottom-end]">
         <button id="dropdown-default" type="button" class="dropdown-toggle btn btn-primary" aria-haspopup="menu"
             aria-expanded="false" aria-label="Dropdown">
-            <span class="swap-off icon-[tabler--color-filter] size-6"></span>
-            <span class="icon-[tabler--chevron-down] dropdown-open:rotate-180 size-4"></span>
+            <IconColorFilter class="swap-off size-6" />
+            <IconChevronDown v-if="!noChevron" class="size-4 dropdown-open:rotate-180" />
         </button>
         <ul class="dropdown-menu dropdown-open:opacity-100 hidden min-w-60" role="menu" aria-orientation="vertical"
             aria-labelledby="dropdown-default">

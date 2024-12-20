@@ -23,10 +23,13 @@ export default {
                 <ImageCarousel />
             </div>
         </div>
-        <div class="col-span-1 p-4 rounded m-2">
+        <div class="col-span-1 p-3 rounded m-1">
             <div class="flex items-right justify-end gap-2">
                 <ThemeSelector />
                 <LanguageSelector />
+                <RouterLink to="/" class="btn btn-primary">
+                    <IconArrowLeft /> {{ $t('Back') }}
+                </RouterLink>
             </div>
             <div class="flex items-center justify-center h-full">
                 <RouterView />
