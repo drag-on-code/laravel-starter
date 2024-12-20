@@ -16,6 +16,7 @@
         "nwidart/laravel-modules": "^11.1.7"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.14",
         "fakerphp/faker": "^1.24.1",
         "laravel/pail": "^v1.2.1",
         "laravel/pint": "^1.18.3",

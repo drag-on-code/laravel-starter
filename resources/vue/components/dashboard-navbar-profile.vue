@@ -1,10 +1,15 @@
 <template>
-    <button id="dropdown-profile" type="button" class="dropdown-toggle flex items-center" aria-haspopup="menu"
-        aria-expanded="false" aria-label="Dropdown">
+    <button id="dropdown-profile" type="button" class="dropdown-toggle flex items-center gap-2 btn btn-primary"
+        aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
         <div class="avatar">
-            <div class="size-9.5 rounded-full">
+            <div class="size-7 rounded-full">
                 <img src="https://cdn.flyonui.com/fy-assets/avatar/avatar-1.png" alt="avatar 1" />
             </div>
+        </div>
+        <div>
+            <h6 class="font-semibold">
+                John Doe
+            </h6>
         </div>
     </button>
     <ul class="dropdown-menu dropdown-open:opacity-100 hidden min-w-60" role="menu" aria-orientation="vertical"

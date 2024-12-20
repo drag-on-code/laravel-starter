@@ -12,7 +12,7 @@ export default {
     <footer class="footer bg-base-200/60 p-10">
         <aside class="gap-6">
             <div class="flex items-center gap-2 text-xl font-bold">
-                <IconBrandTailwind /> <span>Dragon UI</span>
+                <IconBrandTailwind /> <span>Dragon KIT</span>
             </div>
             <p class="text-base-content/90">Most developer friendly & highly <br />customisable Tailwind UI Kit. </p>
         </aside>
@@ -40,7 +40,7 @@ export default {
     <footer class="footer bg-base-200 p-10">
         <div class="flex w-full items-center justify-between">
             <aside class="grid-flow-col items-center">
-                <p>&copy; {{ year }} <a class="link link-hover font-medium" href="#">Dragon UI</a></p>
+                <p>&copy; {{ year }} <a class="link link-hover font-medium" href="#">Dragon KIT</a></p>
             </aside>
             <div class="flex gap-4 h-5">
                 <a href="#" class="link" aria-label="Github Link">

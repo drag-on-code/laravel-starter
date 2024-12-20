@@ -2,7 +2,7 @@
     <nav class="navbar rounded-box shadow">
         <div class="navbar-start">
             <a class="link text-base-content/90 link-neutral text-xl font-semibold no-underline" href="#">
-                Dragon UI
+                Dragon KIT
             </a>
         </div>
         <div class="navbar-center max-md:hidden">

@@ -8,11 +8,12 @@
         <div class="flex flex-1 items-center">
             <div class="flex items-center gap-3">
                 <IconBrandTailwind class="size-10" />
-                <h3 class="drawer-title text-xl font-semibold">Dragon UI</h3>
+                <h3 class="drawer-title text-xl font-semibold">Dragon KIT</h3>
             </div>
         </div>
         <div class="navbar-end flex items-center gap-4">
             <div class="dropdown relative inline-flex [--auto-close:inside] [--offset:8] [--placement:bottom-end]">
+                <DashboardNavbarActivity />
                 <LanguageSelector noChevron buttonText />
                 <ThemeSelector noChevron buttonText />
                 <DashboardNavbarNotification />
