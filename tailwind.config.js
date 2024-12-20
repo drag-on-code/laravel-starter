@@ -27,7 +27,7 @@ export default {
         base: true, // applies background color and foreground color for root element by default
         styled: true, // include FlyonUI colors and design decisions for all components
         utils: true, // adds responsive and modifier utility classes
-        vendors: false, // default is false when true add customize css for apexChart, editor.js, flatpickr, fullcalendar, notyf, raty-js
+        vendors: true, // default is false when true add customize css for apexChart, editor.js, flatpickr, fullcalendar, notyf, raty-js
         logs: true, // Shows info about FlyonUI version and used config in the console when building your CSS
         themeRoot: ":root" // The element that receives theme color CSS variables
     }

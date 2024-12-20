@@ -6,31 +6,7 @@
     "luxury",
     "soft",
     {
-        "dragOn": {
-            "primary": "#00a3fa",
-            "primary-content": "#000a15",
-            "secondary": "#0065ff",
-            "secondary-content": "#d0e3ff",
-            "accent": "#ffbf00",
-            "accent-content": "#160d00",
-            "neutral": "#000f0f",
-            "neutral-content": "#c4c8c8",
-            "base-100": "#f1ffff",
-            "base-200": "#d2dede",
-            "base-300": "#b3bebe",
-            "base-content": "#141616",
-            "info": "#00b0ff",
-            "info-content": "#000b16",
-            "success": "#00d9a8",
-            "success-content": "#00110a",
-            "warning": "#c52a00",
-            "warning-content": "#f9d8d0",
-            "error": "#e4003c",
-            "error-content": "#ffd8d7"
-        }
-    },
-    {
-        "dragOnAlt": {
+        "dragon": {
             "primary": "#0000ff",
             "primary-content": "#c6dbff",
             "secondary": "#900000",
@@ -51,6 +27,56 @@
             "warning-content": "#130100",
             "error": "#ff6792",
             "error-content": "#160408"
+        }
+    },
+    {
+        "vs-code-dark": {
+            "primary": "#58a6ff",
+            "primary-content": "#ffffff",
+            "secondary": "#1f6feb",
+            "secondary-content": "#c9d1d9",
+            "accent": "#2ea043",
+            "accent-content": "#ffffff",
+            "neutral": "#0d1117",
+            "neutral-content": "#8b949e",
+            "base-100": "#161b22",
+            "base-200": "#21262d",
+            "base-300": "#30363d",
+            "base-content": "#f0f6fc",
+            "info": "#79c0ff",
+            "info-content": "#ffffff",
+            "success": "#3fb950",
+            "success-content": "#ffffff",
+            "warning": "#d29922",
+            "warning-content": "#ffffff",
+            "error": "#f85149",
+            "error-content": "#ffffff",
+            "font-family": "'Inter', sans-serif, 'Roboto Slab', serif, 'Fira Code', monospace"
+        }
+    },
+    {
+        "vs-code-light": {
+            "primary": "#0969da",
+            "primary-content": "#ffffff",
+            "secondary": "#1a7f37",
+            "secondary-content": "#ffffff",
+            "accent": "#e36209",
+            "accent-content": "#ffffff",
+            "neutral": "#f6f8fa",
+            "neutral-content": "#24292f",
+            "base-100": "#ffffff",
+            "base-200": "#f3f4f6",
+            "base-300": "#dfe2e5",
+            "base-content": "#24292f",
+            "info": "#0550ae",
+            "info-content": "#ffffff",
+            "success": "#1a7f37",
+            "success-content": "#ffffff",
+            "warning": "#9a6700",
+            "warning-content": "#ffffff",
+            "error": "#cf222e",
+            "error-content": "#ffffff",
+            "font-family": "'Inter', sans-serif, 'Roboto Slab', serif, 'Fira Code', monospace"
         }
     }
 ]
