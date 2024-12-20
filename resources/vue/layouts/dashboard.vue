@@ -20,7 +20,7 @@ export default {
     <DashboardNavbar />
     <DashboardSidebar />
 
-    <div class="p-6 sm:ml-64 mt-14">
+    <div class="p-10 sm:ml-64 mt-14">
         <RouterView />
     </div>
 </template>
