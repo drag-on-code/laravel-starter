@@ -17,5 +17,10 @@ export default {
 </script>
 
 <template>
-    <RouterView />
+    <DashboardNavbar />
+    <DashboardSidebar />
+
+    <div class="p-6 sm:ml-64 mt-14">
+        <RouterView />
+    </div>
 </template>

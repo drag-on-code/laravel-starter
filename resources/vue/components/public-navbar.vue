@@ -149,7 +149,8 @@
             <ThemeSelector noChevron />
             <LanguageSelector noChevron />
             <RouterLink to="/auths/login" class="btn btn-primary">
-                <IconLogin2 /> Login
+                Login
+                <IconLogin2 />
             </RouterLink>
         </div>
     </nav>
