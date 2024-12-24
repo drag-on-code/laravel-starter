@@ -6,6 +6,30 @@
     "luxury",
     "soft",
     {
+        "pinky": {
+            "primary": "#f200ff",
+            "primary-content": "#140016",
+            "secondary": "#006300",
+            "secondary-content": "#cfdfcd",
+            "accent": "#ff1b00",
+            "accent-content": "#160000",
+            "neutral": "#002121",
+            "neutral-content": "#c7cecd",
+            "base-100": "#edffff",
+            "base-200": "#cedede",
+            "base-300": "#b0bebe",
+            "base-content": "#141616",
+            "info": "#3a9dff",
+            "info-content": "#010916",
+            "success": "#09ff86",
+            "success-content": "#001606",
+            "warning": "#c34500",
+            "warning-content": "#f7dbd1",
+            "error": "#cf0029",
+            "error-content": "#fdd6d3"
+        }
+    },
+    {
         "dragon": {
             "primary": "#0000ff",
             "primary-content": "#c6dbff",
