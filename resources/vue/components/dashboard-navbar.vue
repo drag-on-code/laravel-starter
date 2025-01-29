@@ -14,8 +14,8 @@
         <div class="navbar-end flex items-center gap-4">
             <div class="dropdown relative inline-flex [--auto-close:inside] [--offset:8] [--placement:bottom-end]">
                 <DashboardNavbarActivity />
-                <LanguageSelector noChevron buttonText />
-                <ThemeSelector noChevron buttonText />
+                <SelectorLanguage buttonText />
+                <SelectorTheme buttonText />
                 <DashboardNavbarNotification />
             </div>
             <div class="dropdown relative inline-flex [--auto-close:inside] [--offset:8] [--placement:bottom-end]">

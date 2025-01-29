@@ -175,7 +175,7 @@ export default {
 </script>
 
 <template>
-    <div class="max-w-sm mb-3">
+    <div class="max-w mb-3">
         <template v-if="_label && !noLabel">
             <label class="label label-text font-bold" for="errorInput">
                 {{ _label }}

@@ -17,16 +17,16 @@ export default {
 </script>
 
 <template>
-    <div class="grid grid-cols-4 min-h-screen overflow-auto">
-        <div class="col-span-3 p-4">
+    <div class="grid grid-cols-6 min-h-screen overflow-auto">
+        <div class="col-span-4 p-4">
             <div class="flex items-center justify-center h-full">
                 <ImageCarousel />
             </div>
         </div>
-        <div class="col-span-1 p-3 rounded m-1">
+        <div class="col-span-2 p-3 rounded m-1">
             <div class="flex items-right justify-end gap-2">
-                <ThemeSelector />
-                <LanguageSelector />
+                <SelectorTheme />
+                <SelectorLanguage />
                 <RouterLink to="/" class="btn btn-primary">
                     <IconArrowLeft /> {{ $t('Back') }}
                 </RouterLink>

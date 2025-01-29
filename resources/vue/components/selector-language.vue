@@ -53,7 +53,6 @@ export default {
             :class="buttonText ? 'btn-text' : 'btn-primary'" aria-haspopup="menu" aria-expanded="false"
             aria-label="Dropdown">
             <IconLanguage class="swap-off size-6" />
-            <IconChevronDown v-if="!noChevron" class="size-4 dropdown-open:rotate-180" />
         </button>
         <ul class="dropdown-menu dropdown-open:opacity-100 hidden min-w-60" role="menu" aria-orientation="vertical"
             aria-labelledby="language-selector">

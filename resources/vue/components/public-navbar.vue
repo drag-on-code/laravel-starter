@@ -146,8 +146,8 @@
                     <li><a class="dropdown-item" href="#">Careers</a></li>
                 </ul>
             </div>
-            <ThemeSelector noChevron />
-            <LanguageSelector noChevron />
+            <SelectorTheme />
+            <SelectorLanguage />
             <RouterLink to="/auths/login" class="btn btn-primary">
                 Login
                 <IconLogin2 />
